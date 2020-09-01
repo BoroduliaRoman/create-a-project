@@ -25,6 +25,8 @@ public class SaveStudentOrder {
         StudentOrder so = new StudentOrder();
         so.setStudentOrderID(id);
 
+        Adult husband = new Adult("Васильев", "Андрей", "Петрович", null);
+
         return so;
     }
 }
