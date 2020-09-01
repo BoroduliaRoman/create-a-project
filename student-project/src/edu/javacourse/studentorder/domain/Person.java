@@ -5,7 +5,7 @@ import java.time.LocalDate;
 /**
  * @author BR
  */
-public class Person {
+public abstract class Person {
     protected String surName;
     protected String givenName;
     private String patronymic;
