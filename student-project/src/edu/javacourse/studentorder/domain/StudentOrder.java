@@ -1,5 +1,7 @@
 package edu.javacourse.studentorder.domain;
 
+import java.time.LocalDate;
+
 /**
  * @author BR
  */
@@ -39,5 +41,14 @@ public class StudentOrder {
 
     public void setChild(Child child) {
         this.child = child;
+    }
+
+    public void setMarriageCertificateID(String s) {
+    }
+
+    public void setMarriageDate(LocalDate of) {
+    }
+
+    public void setMarriageOffice(String отдел_загс) {
     }
 }
